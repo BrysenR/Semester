@@ -76,20 +76,28 @@ public class Semester
    		
       
     //New story parts
-        “Choosing to follow the compass, you mount the horse. As you resume your journey, you head\n west, straying farther from your hometown and the threat of the guards. You follow the \n unflinching westward point of the compass until nightfall. You feel you're scepticism grow in \n the magic of the bronze compass, and begin to question if you’re making the right decision. As \n darkness falls, do you:
-Set up camp for the night? 
-Continue to travel in the night?”
+        System.out.println("Choosing to follow the compass, you mount the horse. As you resume your journey, you head west,");
+        System.out.println("straying farther from your hometown and the threat of the guards. You follow the  unflinching ");
+        System.out.println("westward point of the compass until nightfall. You feel you're scepticism grow in  the magic");
+        System.out.println("of the bronze compass, and begin to question if you’re making the right decision. As darkness ");
+        System.out.println("falls, do you:\n\nSet up camp for the night?(Hit 1)\n\nContinue to travel in the night?(Hit 2)");
 
-Opt1: “After much deliberation, you decide it’s best to set up camp for the night and try to get some rest. After tying the horse to a nearby tree, you make a small meal for yourself and feed your horse a humble serving of oats.” As darkness falls, will you make a fire for warmth and protection?:
-Make the fire.
-Don’t make the fire.
+Opt1: 
+			System.out.println("After much deliberation, you decide it’s best to set up camp for the night and try to get some rest.");
+			System.out.println("After tying the horse to a nearby tree, you make a small meal for yourself and feed your horse a humble");
+			System.out.println("serving of oats. \n\nAs darkness falls, will you make a fire for warmth and protection?");
+			System.out.println("\nMake the fire (Hit 1) \nDon't make the fire (Hit 2)");
 
-2opt1: “After deciding not to risk the cold or the threat of wildlife,  you gather your flint, steel, and nearby wood to make a fire. Exhausted from the events of the day, you quickly fall asleep.\n\nYou wake to the feeling something is off. Not yet rising, you strain your ears against the quiet crackle of the dying fire next to you. You pick up the sound of hushed voices and clumsy feet over leaves. Still feigning sleep, do you:
-Attempt to grab your crossbow.
-Attempt to grab your sword.
+2opt1: 
+				System.out.println("After deciding not to risk the cold or the threat of wildlife,  you gather your flint, steel, and nearby wood to");
+				System.out.println("make a fire. Exhausted from the events of the day, you quickly fall asleep.");
+				System.out.println("You wake to the feeling something is off. Not yet rising, you strain your ears against the quiet crackle of the ");
+				System.out.println("dying fire next to you. You pick up the sound of hushed voices and clumsy feet over leaves. Still feigning sleep,);
+				System.out.println("Do you:\n\nAttempt to grab your crossbow(Hit 1)\nAttempt to grab your sword (Hit 2)");
 
-3opt1 “After rolling quickly rolling over, you grab your crossbow and point it towards the voices. You see two figures stop at the edge of your camp. Identifying them as guards, they stop their advance and 
-
+3opt1 
+					System.out.println("After rolling quickly rolling over, you grab your crossbow and point it towards the voices. You see two figures stop");
+					System.out.println("at the edge of your camp. Identifying them as guards, they stop their advance and");
 
     }
 }
